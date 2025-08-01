@@ -4,6 +4,7 @@ export interface DogBreed{
     id: number
     name: string
     bred_for: string
+    description: string
     breed_group: string
     life_span: string
     history?: string
